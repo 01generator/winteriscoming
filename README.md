@@ -5,7 +5,7 @@
 * Website: http://01generator.com
 * Repository: https://github.com/01generator/winteriscoming.git
 * License: MIT License
-* Tags: Prestashop, Prestashop module, call me back, call, leave telephone to call
+* Tags: Prestashop, Prestashop module, winter, let it snow, snow effect
 * Description: This is a Prestashop module under MIT license. Make your clients enjoy christmas by making your website to snow.
 * Prestashop Version: 1.6.XX , 1.7.XX
 
