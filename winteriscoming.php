@@ -62,26 +62,4 @@ class Winteriscoming extends Module
     {
         $this->context->controller->addJs($this->_path . 'views/js/winteriscoming.js');
     }
-
-    /* Configuartion page of the module */
-    // public function getContent()
-    // {
-    //     // Store main connect configuratios values for the service providers
-    //     $this->processConfiguration();
-    //     $this->assignConfiguration();
-
-    //     $this->smarty->assign('tags', array('form'));
-
-    //     return $this->display(__FILE__, 'getContent.tpl') . $this->display(__FILE__, 'ps-tags.tpl');
-    // }
-
-    public function getHookController($hook_name)
-    {
-        require_once dirname(__FILE__) . '/controllers/hook/' .
-            $hook_name . '.php';
-        $controller_name = $this->name . $hook_name . 'Controller';
-        $controller = new $controller_name($this, __FILE__,
-            $this->_path);
-        return $controller;
-    }
 }
